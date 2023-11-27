@@ -1,6 +1,6 @@
 import "FungibleToken"
 
-pub contract FooToken: FungibleToken {
+access(all) contract FooToken: FungibleToken {
 
     pub event TokensInitialized(initialSupply: UFix64)
 	pub event TokensWithdrawn(amount: UFix64, from: Address?)
