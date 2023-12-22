@@ -1,5 +1,5 @@
 import "FooToken"
 
-pub fun main() {
+access(all) fun main() {
     log(FooToken.totalSupply)
 }
